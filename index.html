@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaan Toraman - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>Kaan Toraman</h1>
+        </div>
+        <nav class="nav-menu">
+            <a href="#">About</a>
+            <a href="#publications">Publications</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+            <a href="docs/KAAN_TORAMAN_RESUME.pdf" class="resume-btn" target="_blank">Resume</a>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-main-card">
+            
+            <div class="profile-main">
+                <div class="profile-left">
+                    <div class="profile-image-container">
+                        <img src="images/pp.png" alt="Kaan Toraman" class="profile-avatar">
+                    </div>
+                </div>
+                
+                <div class="profile-right">
+                    <h1 class="main-name">KAAN TORAMAN</h1>
+                    
+                    <div class="tech-focus">
+                        <div class="focus-tag">AI & Machine Learning</div>
+                        <div class="focus-tag">AR Development</div>
+                        <div class="focus-tag">Game Development</div>
+                        <div class="focus-tag">Full Stack Web</div>
+                        <div class="focus-tag">Mobile Development</div>
+                        <div class="focus-tag">Computer Vision</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-bottom">
+            <div class="about-section">
+                <h3>ABOUT ME</h3>
+                <p>I am a senior Information Systems Engineering student at Kocaeli University, expected to graduate in June 2025, currently ranked <strong>first in my department</strong>. Throughout my studies, I have gained hands-on experience in artificial intelligence, software engineering, and immersive technologies, developing end-to-end solutions in web, mobile, and game development using technologies such as <strong>Unity, React, .NET Blazor WebAssembly, Python, PostgreSQL, and MSSQL</strong>.</p>
+                <p>I have solid experience in backend development with <strong>.NET C#, including RESTful API design and database-driven systems</strong>. Having taken on technical and leadership roles in multiple research and development projects, I co-authored <strong>two IEEE-indexed academic papers</strong> with DOI references, both accepted for presentation at ICHORA 2025. I led the technical development of the <strong>LIFT UP decision support simulator</strong> in collaboration with TUSAŞ and contributed to Stajsis, an internship management system currently in active use at my university.</p>
+                <p>My experience extends to innovative social impact projects, including a <strong>patent-filed computer vision system</strong> that supports children with autism. During my internships at Özka Lastik and Asewise Teknoloji, I worked on enterprise software tools and internal systems, while also publishing the mobile game <strong>JellyWop on the Google Play Store</strong>.</p>
+                <p>Recognized as a <strong>finalist in the TEKNOFEST 2025 ICT category</strong>, my work demonstrates both innovation and practical development skills, creating technology solutions that bridge academic research with real-world applications across healthcare, defense, education, and strategic planning sectors.</p>
+            </div>
+            <div class="connect-section">
+                <h3>CONNECT</h3>
+                <div class="social-links-modern">
+                    <a href="https://www.linkedin.com/in/kaan-toraman-659910221/" class="social-link-modern" target="_blank">
+                        <div class="social-icon-modern">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info-modern">
+                            <span class="social-platform-modern">LinkedIn</span>
+                            <span class="social-handle-modern">@kaan-toraman-659910221/</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/Sisedes" class="social-link-modern" target="_blank">
+                        <div class="social-icon-modern">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info-modern">
+                            <span class="social-platform-modern">Github</span>
+                            <span class="social-handle-modern">@Sisedes</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://sisedess.itch.io/" class="social-link-modern" target="_blank">
+                        <div class="social-icon-modern">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 8.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+                                <path d="M3 10.5A1.5 1.5 0 0 1 4.5 9h15A1.5 1.5 0 0 1 21 10.5v7a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-7zm2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM6 16.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                                <path d="M6 12.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                            </svg>
+                        </div>
+                        <div class="social-info-modern">
+                            <span class="social-platform-modern">Itch.io</span>
+                            <span class="social-handle-modern">@Sisedess</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="publications-section" id="publications">
+        <div class="publications-container">
+            <h2 class="publications-title">ACADEMIC PUBLICATIONS</h2>
+            <div class="publications-grid">
+                <div class="publication-card">
+                    <div class="publication-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                        </svg>
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">A Computer Vision-Based Physical Activity Application for Children with Autism</h3>
+                        <div class="publication-meta">
+                            <span class="publication-type">IEEE Conference Paper</span>
+                            <span class="publication-status">Published</span>
+                        </div>
+                        <p class="publication-description">
+                            This paper introduces a computer vision-based physical activity application designed to support motor, social, and cognitive development in children with Autism Spectrum Disorder (ASD). Leveraging real-time motion tracking through Google MediaPipe and Unity, the system creates interactive virtual characters that mirror users' movements, promoting engagement through game-based learning. The platform incorporates AI-powered feedback, emotion recognition, and body tracking to offer a low-cost, accessible solution for use in classrooms and at home. By fostering active participation, the system encourages independence, socialization, and physical well-being among children with ASD.
+                        </p>
+                        <div class="publication-links">
+                            <a href="https://ieeexplore.ieee.org/document/11017104" target="_blank" class="ieee-link">
+                                <div class="link-icon">📄</div>
+                                <span>View on IEEE Xplore</span>
+                            </a>
+                            <div class="doi-info">
+                                <span class="doi-label">DOI:</span>
+                                <span class="doi-number">10.1109/ICHORA65333.2025.11017104</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="publication-card">
+                    <div class="publication-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
+                        </svg>
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">A Digitalized Business Wargame Model for Foresight-based Future Planning and Decision-Making</h3>
+                        <div class="publication-meta">
+                            <span class="publication-type">IEEE Conference Paper</span>
+                            <span class="publication-status">Published</span>
+                        </div>
+                        <p class="publication-description">
+                            This paper presents a foresight-driven digital business wargaming model that integrates artificial intelligence, natural language processing, and interactive simulations to support strategic decision-making under uncertainty. By combining scenario-based planning with predictive analytics and role-based simulations, the system enables users to evaluate long-term impacts, enhance future thinking capabilities, and navigate complex competitive environments with greater adaptability and insight.
+                        </p>
+                        <div class="publication-links">
+                            <a href="https://ieeexplore.ieee.org/document/11017175" target="_blank" class="ieee-link">
+                                <div class="link-icon">📄</div>
+                                <span>View on IEEE Xplore</span>
+                            </a>
+                            <div class="doi-info">
+                                <span class="doi-label">DOI:</span>
+                                <span class="doi-number">10.1109/ICHORA65333.2025.11017175</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+        <div class="experience-container">
+            <h2 class="experience-title">WORK EXPERIENCE</h2>
+            
+            <div class="experience-timeline">
+                <div class="experience-item" data-company="ozka">
+                    <div class="experience-visual">
+                        <div class="project-showcase">
+                            <img src="images/k/kanikportal.jpeg" alt="Kanık Portal" class="project-preview" onclick="openImagePopup(this.src)">
+                            <img src="images/k/zisg.png" alt="Visitor System" class="project-preview" onclick="openImagePopup(this.src)">
+                            <img src="images/k/forklift.jpeg" alt="Forklift Tracking" class="project-preview" onclick="openImagePopup(this.src)">
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3 class="position-title">Software Engineer | Student Assistant</h3>
+                            <span class="experience-period">Sep 2024 - Jan 2025</span>
+                        </div>
+                        <div class="company-info">
+                            <h4 class="company-name">Özka Lastik ve Kauçuk Sanayi Ticaret Anonim Şirketi</h4>
+                            <span class="company-location">Kocaeli, Turkey</span>
+                        </div>
+                        <p class="experience-description">
+                            As part of my vocational training in the company, I worked as a student assistant within the software team. During this period, I developed the internal employee portal "Kanık Portal" and the "Visitor Occupational Health and Safety System" using .NET Blazor WASM and MSSQL. Additionally, I took part in the Forklift Tracking System project, which enables real-time monitoring of forklifts using ESP32.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">.NET Blazor</span>
+                            <span class="tag">MSSQL</span>
+                            <span class="tag">ESP32</span>
+                            <span class="tag">IoT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item" data-company="asewise">
+                    <div class="experience-visual">
+                        <div class="project-showcase">
+                            <img src="images/at/image11.png" alt="1" class="project-preview" onclick="openImagePopup(this.src)">
+                            <img src="images/at/image19.png" alt="2" class="project-preview" onclick="openImagePopup(this.src)">
+                            <img src="images/at/image21.png" alt="3" class="project-preview" onclick="openImagePopup(this.src)">
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3 class="position-title">Full Stack Developer | Part Time</h3>
+                            <span class="experience-period">Jun 2024 - Oct 2024</span>
+                        </div>
+                        <div class="company-info">
+                            <h4 class="company-name">Asewise Teknoloji Ltd. Şti.</h4>
+                            <span class="company-location">Kocaeli, Turkey</span>
+                        </div>
+                        <p class="experience-description">
+                            This is the position I started as an intern and then continued as a part-time Full Stack Developer. I developed a web application similar to KolayBi Online Pre-Accounting. Throughout the development process, I worked on both the frontend and backend using React, Vite, PostgreSQL, and JavaScript. I also integrated electronic invoicing (e-Fatura) features into the system using SOAP-based web services with SOAP UI.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Vite</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item" data-company="aksoy">
+                    <div class="experience-visual">
+                        <div class="project-showcase">
+                             <div class="project-preview-container jellywop-container">
+                                 <img src="images/a/jellywop.png" alt="JellyWop Game" class="project-preview">
+                                 <div class="project-overlay">
+                                     <a href="https://skich.app/games/jellywop" target="_blank" class="play-button">
+                                         <span class="play-icon">▶</span>
+                                         <span class="play-text">Google Play</span>
+                                     </a>
+                                 </div>
+                             </div>
+                             <div class="project-preview-container hyperrunway-container">
+                                 <img src="images/a/hyperrunway-race.png" alt="HyperRunway Race" class="project-preview" onclick="openImagePopup(this.src)">
+                             </div>
+                        </div>
+                    </div>
+                    <div class="experience-content">
+                        <div class="experience-header">
+                            <h3 class="position-title">Game Developer | Part Time</h3>
+                            <span class="experience-period">Feb 2023 - Mar 2024</span>
+                        </div>
+                        <div class="company-info">
+                            <h4 class="company-name">Aksoy Çözüm</h4>
+                            <span class="company-location">Kocaeli, Turkey</span>
+                        </div>
+                        <p class="experience-description">
+                            This is the position I began as an intern and later continued as a part-time Game Developer. During my time there, I developed a game called "JellyWop", which was published on the Google Play Store. I also developed an online multiplayer game titled "HyperRunwayRace" as part of a KOSGEB project the company submitted to support the opening of a new game development office. In this project, I used Photon for multiplayer networking and integrated various Google services into the game.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Unity</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">Game Development</span>
+                            <span class="tag">Mobile Games</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <h2 class="projects-title">My Projects</h2>
+        <div class="projects-container">
+            <div class="arrow arrow-left">◀</div>
+            <div class="arrow arrow-right">▶</div>
+            <div class="game-grid">
+        <div class="game-card game-1" data-title="Stajsis.com" data-description="The internship system actively used within the Department of Information Systems Engineering and the Faculty of Technology at Kocaeli University was developed by a team of three, including myself. This project is a web service designed to simplify and improve accessibility for internship and vocational training applications, while also aiming to reduce paper waste. It is planned to be expanded for use across the entire university in the future. The project can be accessed via stajsis.com." data-images="images/stajsis/1.png,images/stajsis/2.png">
+            <img src="images/cardimages/stajsis1.png" alt="Stajsis.com" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">C#</span>
+                <span class="tag">Blazor</span>
+                <span class="tag">Web Development</span>
+                <span class="tag">MSSQL</span>
+            </div>
+            <div class="game-title neon-text">Stajsis.com</div>
+        </div>
+
+        <div class="game-card game-3" data-title="A Digitalized Business Wargame Model for Foresight-based Future Planning and Decision-Making" data-description="As the project lead, I directed the development of a card-based strategy game simulating foresight-based decision-making using a digital business wargaming model. I handled game mechanics and UI in Unity with C#, and built two separate AI systems: one is a chatbot powered by a fine-tuned Gemma 2 9B model for dynamic scenario generation, and the other is a scoring system that evaluates open-ended user inputs using TF-IDF and semantic analysis techniques. Data was managed with PostgreSQL. The project is currently under evaluation by TUSAŞ LIFT UP teams, was selected as one of the 10 finalists in the Information and Communication Technologies category at TEKNOFEST 2025, and although our TÜBİTAK 2209-B application was approved by reviewers, it was later withdrawn due to another submission. An academic paper based on the project was presented at ICHORA 2025 and is now published with a DOI in the IEEE Xplore database." data-images="images/tusas/1.png,images/tusas/2.png,images/tusas/3.png">
+            <img src="images/cardimages/tusas.png" alt="A Digitalized Business Wargame Model for Foresight-based Future Planning and Decision-Making" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+                <span class="tag">AI</span>
+                <span class="tag">NLP</span>
+                <span class="tag">PostgreSQL</span>
+            </div>
+            <div class="game-title neon-text">A Digitalized Business Wargame Model for Foresight-based Future Planning and Decision-Making</div>
+        </div>
+        <div class="game-card game-4" data-title="A Computer Vision-Based Physical Activity Application for Children with Autism" data-description="As the developer of this project, I aimed to help children with Autism Spectrum Disorder acquire new skills through a game-based interactive system. Developed in collaboration with the Izmit Municipality Autism Sports and Life Center, the project uses camera input to map children's real-time movements to customizable virtual characters, encouraging engagement through various activity-based scenarios. I built the system using Unity, Python, and C#, integrating OpenCV and MediaPipe for motion tracking and gesture recognition. A patent application has been filed for the technology, and an academic paper based on the project was presented at ICHORA 2025 and is now published with a DOI in the IEEE Xplore database." data-images="images/otizm/1.png,images/otizm/2.png,images/otizm/3.png,images/otizm/4.png">
+            <img src="images/cardimages/otizm.png" alt="A Computer Vision-Based Physical Activity Application for Children with Autism" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">Python</span>
+                <span class="tag">C#</span>
+                <span class="tag">OpenCV</span>
+                <span class="tag">MediaPipe</span>
+                <span class="tag">AR</span>
+            </div>
+            <div class="game-title neon-text">A Computer Vision-Based Physical Activity Application for Children with Autism</div>
+        </div>
+        <div class="game-card game-5" data-title="Buried Conquest" data-description="Buried Conquest is a rogue-like, deck-building strategy game where players build and upgrade a deck of unique cards to engage in tactical battles. Each card has distinct abilities, and as the game progresses, players unlock new cards, gain power-ups, and refine their strategies. I developed this game with a group of friends not only as a project but also as a startup attempt. We negotiated with Digiage until the final stages to launch the game under their publishing and incubation framework, but the deal fell through. Eventually, we presented the game at the 6th Eastern Marmara International Project Fair, where it passed the preliminary selection and was showcased as a finalist." data-images="images/buried/1.mp4,images/buried/1.png,images/buried/2.png">
+            <img src="images/cardimages/buriedconquest.png" alt="Buried Conquest" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+                <span class="tag">Game Development</span>
+                <span class="tag">Strategy Game</span>
+            </div>
+            <div class="game-title neon-text">Buried Conquest</div>
+        </div>
+        <div class="game-card game-6" data-title="MACHINE LEARNING - Poetry Project" data-description="In this project, I collected Turkish poems using Selenium for text mining and applied NLP techniques to prepare and augment the dataset. I trained five transformer models—BERT, RoBERTa, DistilBERT, Electra, and GPT—to classify the poems by their literary movements such as Second New and Garip. The models were compared based on performance metrics like accuracy and F1-score, and the results were documented. This project aimed to combine modern language models with cultural and literary classification." data-images="ml1.jpg,ml2.jpg,ml3.jpg">
+            <img src="images/cardimages/machinelearning.png" alt="MACHINE LEARNING - Poetry Project" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">BERT</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Selenium</span>
+            </div>
+            <div class="game-title neon-text">MACHINE LEARNING - Poetry Project</div>
+        </div>
+        <div class="game-card game-7" data-title="Academy Invasion" data-description="A top-down action game developed with a team of five in 48 hours during the Google Game Jam. I contributed to gameplay logic and UI flow using Unity and C#." data-images="images/akademi/1.png,images/akademi/2.png,images/akademi/3.png">
+            <img src="images/cardimages/akademistilasi.png" alt="Academy Invasion" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+                <span class="tag">Game Jam</span>
+                <span class="tag">2D Game</span>
+            </div>
+            <div class="game-title neon-text">Academy Invasion</div>
+        </div>
+        <div class="game-card game-8" data-title="Humanity Survival" data-description="A 3D action shooter developed in 30 days during Google's final Bootcamp, selected among the top 25 projects. I worked on enemy AI and scene transitions in Unity." data-images="images/humanity/1.png,images/humanity/2.png,images/humanity/3.png,images/humanity/4.png">
+            <img src="images/cardimages/humanitysurvival.jpg" alt="Humanity Survival" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+                <span class="tag">3D Game</span>
+                <span class="tag">Action</span>
+            </div>
+            <div class="game-title neon-text">Humanity Survival</div>
+        </div>
+        <div class="game-card game-9" data-title="AstroAR" data-description="An educational AR project built with Unity and ARKit to teach young children about the solar system. Includes interactive quizzes and animated planetary models." data-images="images/astroar/1.png,images/astroar/2.png,images/astroar/3.png,images/astroar/4.png">
+            <img src="images/cardimages/astroar.png" alt="AstroAR" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+                <span class="tag">AR</span>
+                <span class="tag">ARKit</span>
+                <span class="tag">Education</span>
+            </div>
+            <div class="game-title neon-text">AstroAR</div>
+        </div>
+        <div class="game-card game-10" data-title="Class Schedule System with Augmented Reality" data-description="A mobile AR application developed using Unity, Vuforia, PHP, and SQL. Enables students and teachers to view and manage class schedules by scanning visual markers." data-images="images/schedule/1.png,images/schedule/2.png,images/schedule/3.png,images/schedule/4.png,images/schedule/5.png">
+            <img src="images/cardimages/dersprogrami.png" alt="Class Schedule System with Augmented Reality" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Unity</span>
+                <span class="tag">C#</span>
+                <span class="tag">Vuforia</span>
+                <span class="tag">PHP</span>
+                <span class="tag">SQL</span>
+            </div>
+            <div class="game-title neon-text">Class Schedule System with Augmented Reality</div>
+        </div>
+        <div class="game-card game-11" data-title="Fit4Less" data-description="A fitness-focused mobile app developed using Android Studio and Firebase. Features include a water intake reminder, food calorie checker, BMI calculator, and guided workout demonstrations. I handled UI/UX flow and integrated real-time database features for user tracking." data-images="fit4less1.jpg,fit4less2.jpg,fit4less3.jpg">
+            <img src="images/cardimages/fit4less_logo.png" alt="Fit4Less" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Android</span>
+                <span class="tag">Java</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Mobile App</span>
+            </div>
+            <div class="game-title neon-text">Fit4Less</div>
+        </div>
+        <div class="game-card game-12" data-title="Inventory Control System" data-description="An Android app designed to manage product entries and perform warehouse inventory checks. Developed using Android Studio, PHP, and SQL, with a focus on CRUD operations, stock tracking, and local database syncing." data-images="inventory1.jpg,inventory2.jpg,inventory3.jpg">
+            <img src="images/cardimages/envanter_logo.png" alt="Inventory Control System" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Android</span>
+                <span class="tag">Java</span>
+                <span class="tag">PHP</span>
+                <span class="tag">SQL</span>
+            </div>
+            <div class="game-title neon-text">Inventory Control System</div>
+        </div>
+        <div class="game-card game-13" data-title="Smart Stop Navigation System" data-description="Built with Android Studio and Google APIs, this app provides voice-controlled search and navigation functions tailored for visually impaired and elderly users. Includes text-to-speech, speech recognition, and adaptive accessibility features." data-images="images/navigasyon/1.png,images/navigasyon/2.png,images/navigasyon/3.png,images/navigasyon/4.png">
+            <img src="images/cardimages/navigasyon.png" alt="Smart Stop Navigation System" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">Android</span>
+                <span class="tag">Java</span>
+                <span class="tag">Google APIs</span>
+                <span class="tag">Voice Recognition</span>
+            </div>
+            <div class="game-title neon-text">Smart Stop Navigation System</div>
+        </div>
+        <div class="game-card game-14" data-title="MatchIt" data-description="A web app developed using HTML, CSS, JavaScript, and PHP, deployed on AWS using Docker containers. Focused on cloud-based deployment and environment virtualization to manage scalable backend services." data-images="matchit1.jpg,matchit2.jpg,matchit3.jpg">
+            <img src="images/cardimages/matchit.png" alt="MatchIt" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">PHP</span>
+                <span class="tag">AWS</span>
+                <span class="tag">Docker</span>
+            </div>
+            <div class="game-title neon-text">MatchIt</div>
+        </div>
+        <div class="game-card game-15" data-title="Game Box" data-description="An e-commerce website for board games, built with HTML, CSS, and JavaScript as part of a web design project. Emphasized frontend usability and clean product listing UI." data-images="images/kutuoyun/1.png,images/kutuoyun/2.png">
+            <img src="images/cardimages/kutuoyun.png" alt="Game Box" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">E-commerce</span>
+            </div>
+            <div class="game-title neon-text">Game Box</div>
+        </div>
+        <div class="game-card game-16" data-title="Umuttepe Tourism" data-description="A ticket sales and reservation system for a bus company, developed using the CodeIgniter framework and deployed on a live server. Integrated PHP-based backend logic with dynamic scheduling, form handling, and real-time availability updates." data-images="images/umuttepe/1.png,images/umuttepe/2.png,images/umuttepe/3.png,images/umuttepe/4.png">
+            <img src="images/cardimages/umuttepeturizm.png" alt="Umuttepe Tourism" class="card-cover">
+            <div class="project-tags">
+                <span class="tag">CodeIgniter 4</span>
+                <span class="tag">PHP</span>
+                <span class="tag">SQL</span>
+                <span class="tag">JavaScript</span>
+            </div>
+            <div class="game-title neon-text">Umuttepe Tourism</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2 class="contact-title">GET IN TOUCH</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-description">I'm always open to discussing new opportunities, interesting projects, or just having a conversation about technology and innovation. Feel free to reach out!</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:kaan03tor@gmail.com">kaan03tor@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <a href="kaan-toraman.vcf" download="Kaan Toraman.vcf">Download VCF</a>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                
+                <div class="contact-social">
+                    <h3>Connect With Me</h3>
+                    <div class="contact-social-links">
+                        <a href="https://www.linkedin.com/in/kaan-toraman-659910221/" target="_blank" class="contact-social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        
+                        <a href="https://github.com/Sisedes" target="_blank" class="contact-social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                        
+                        <a href="https://sisedess.itch.io/" target="_blank" class="contact-social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8 8.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/>
+                                <path d="M3 10.5A1.5 1.5 0 0 1 4.5 9h15A1.5 1.5 0 0 1 21 10.5v7a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-7zm2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM6 16.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
+                                <path d="M6 12.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                            </svg>
+                            <span>Itch.io</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="project-display">
+        <div class="close-btn">&#x2715;</div>
+        <div class="project-content">
+            <div class="project-images">
+                <div class="main-image">
+                    <img src="" alt="Main Project Image">
+                </div>
+                <div class="image-thumbnails"></div>
+            </div>
+            <div class="project-info">
+                <div class="project-header">
+                    <h2></h2>
+                </div>
+                <div class="project-description">
+                    <p></p>
+                </div>
+                <div class="project-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Technology Stack:</span>
+                        <span class="detail-value" id="tech-stack">React, Node.js, MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="academic-section" style="display: none;">
+                    <h3>Academic Publications</h3>
+                    <div class="academic-items">
+                        <div class="academic-item ieee-paper">
+                            <div class="academic-icon">📄</div>
+                            <div class="academic-content">
+                                <div class="academic-title">IEEE Conference Paper</div>
+                                <div class="academic-subtitle">Published Research Paper</div>
+                                <a href="#" class="academic-link" id="ieee-link" target="_blank">View on IEEE Xplore</a>
+                            </div>
+                        </div>
+                        
+                        <div class="academic-item poster">
+                            <div class="academic-icon">🎯</div>
+                            <div class="academic-content">
+                                <div class="academic-title">Academic Poster</div>
+                                <div class="academic-subtitle">Conference Presentation</div>
+                                <a href="#" class="academic-link" id="poster-link" target="_blank">View Poster (PDF)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="game-links-section" style="display: none;">
+                    <h3>Play & Watch</h3>
+                    <div class="game-links-items">
+                        <div class="game-link-item playable">
+                            <div class="game-link-icon">🎮</div>
+                            <div class="game-link-content">
+                                <div class="game-link-title">Play Game</div>
+                                <div class="game-link-subtitle">Available on itch.io</div>
+                                <a href="#" class="game-link-url" id="itchio-link" target="_blank">Play Now</a>
+                            </div>
+                        </div>
+                        
+                        <div class="game-link-item video">
+                            <div class="game-link-icon">📹</div>
+                            <div class="game-link-content">
+                                <div class="game-link-title">Gameplay Video</div>
+                                <div class="game-link-subtitle">Watch on YouTube</div>
+                                <a href="#" class="game-link-url" id="youtube-link" target="_blank">Watch Video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="entrepreneurship-section" style="display: none;">
+                    <h3>Entrepreneurship Journey</h3>
+                    <div class="entrepreneurship-items">
+                        <div class="entrepreneurship-item startup">
+                            <div class="entrepreneurship-icon">🏢</div>
+                            <div class="entrepreneurship-content">
+                                <div class="entrepreneurship-title">FingerPrintStudio</div>
+                                <div class="entrepreneurship-subtitle">Game Development Company Initiative</div>
+                                <div class="entrepreneurship-status" id="startup-status">Company Formation Attempted</div>
+                            </div>
+                        </div>
+                        
+                        <div class="entrepreneurship-item exhibition">
+                            <div class="entrepreneurship-icon">🏆</div>
+                            <div class="entrepreneurship-content">
+                                <div class="entrepreneurship-title">6th East Marmara Project Fair</div>
+                                <div class="entrepreneurship-subtitle">Project Exhibition</div>
+                                <a href="#" class="entrepreneurship-link" id="exhibition-poster" target="_blank">View Exhibition Poster</a>
+                            </div>
+                        </div>
+                        
+                        <div class="entrepreneurship-item program">
+                            <div class="entrepreneurship-icon">🎮</div>
+                            <div class="entrepreneurship-content">
+                                <div class="entrepreneurship-title">Digiage Program</div>
+                                <div class="entrepreneurship-subtitle">Gaming Startup Application</div>
+                                <div class="entrepreneurship-status">Evaluation Completed</div>
+                            </div>
+                        </div>
+                        
+                        <div class="entrepreneurship-item demo">
+                            <div class="entrepreneurship-icon">🎬</div>
+                            <div class="entrepreneurship-content">
+                                <div class="entrepreneurship-title">Game Demo Video</div>
+                                <div class="entrepreneurship-subtitle">Gameplay Showcase</div>
+                                <a href="#" class="entrepreneurship-link" id="demo-video" target="_blank">Watch Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-popup-overlay" id="imagePopup">
+        <div class="image-popup-container">
+            <button class="popup-close-btn" onclick="closeImagePopup()">✕</button>
+            <div class="image-popup-content">
+                <img src="" alt="Project Image" class="popup-image" id="popupImage">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
